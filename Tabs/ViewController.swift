@@ -8,7 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let sitio : [Sitio] = [Sitio(nombre: "Laguna del Nainari")]
+    @IBOutlet weak var tbSitio: UITableView!
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return sitio.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let celda = tableView.dequeueReusableCell(withIdentifier: "cellSitio") as! CeldaSitio
+        
+        return celda
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

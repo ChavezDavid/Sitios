@@ -14,6 +14,8 @@
 		3D3879C2215B068900E8C0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3879C0215B068900E8C0A1 /* LaunchScreen.storyboard */; };
 		3D3879CD215B068A00E8C0A1 /* TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3879CC215B068A00E8C0A1 /* TabsTests.swift */; };
 		3D3879D8215B068A00E8C0A1 /* TabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3879D7215B068A00E8C0A1 /* TabsUITests.swift */; };
+		3D3879E6215B154500E8C0A1 /* Sitio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3879E5215B154500E8C0A1 /* Sitio.swift */; };
+		3D3879E8215B16CD00E8C0A1 /* CeldaSitio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3879E7215B16CD00E8C0A1 /* CeldaSitio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D3879D3215B068A00E8C0A1 /* TabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3879D7215B068A00E8C0A1 /* TabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsUITests.swift; sourceTree = "<group>"; };
 		3D3879D9215B068A00E8C0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3879E5215B154500E8C0A1 /* Sitio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sitio.swift; sourceTree = "<group>"; };
+		3D3879E7215B16CD00E8C0A1 /* CeldaSitio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaSitio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3D3879BE215B068900E8C0A1 /* Assets.xcassets */,
 				3D3879C0215B068900E8C0A1 /* LaunchScreen.storyboard */,
 				3D3879C3215B068900E8C0A1 /* Info.plist */,
+				3D3879E5215B154500E8C0A1 /* Sitio.swift */,
+				3D3879E7215B16CD00E8C0A1 /* CeldaSitio.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3879E8215B16CD00E8C0A1 /* CeldaSitio.swift in Sources */,
 				3D3879BA215B066A00E8C0A1 /* ViewController.swift in Sources */,
+				3D3879E6215B154500E8C0A1 /* Sitio.swift in Sources */,
 				3D3879B8215B066A00E8C0A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
